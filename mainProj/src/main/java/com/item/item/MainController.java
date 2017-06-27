@@ -30,7 +30,7 @@ public class MainController {
 	@ModelAttribute
 	public TempData data(@PathVariable String aaa, @PathVariable String bbb, @PathVariable String ccc,
 			HttpServletRequest request) {
-		System.out.println("거치냐?");
+		System.out.println("거치냐?dsadsa");
 		TempData data = new TempData();
 		System.out.println(aaa+bbb+ccc);
 		data.setTop(aaa);
